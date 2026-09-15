@@ -12,6 +12,7 @@
 | [MetaLib Game](https://github.com/Evr1kys/metalib-game) | Магазин цифровых товаров с аккаунтами, каталогом, платежами, заказами и админкой | Next.js, TypeScript, MySQL |
 | [Game Marketplace](https://github.com/Evr1kys/game-marketplace) | Торговая площадка с объявлениями, профилями, балансами, отзывами и сообщениями | Next.js, Prisma, NextAuth |
 | [MetaLib VPN Bot](https://github.com/Evr1kys/metalib-vpn-bot) | VPN-платформа: API, бот, Mini App, панель администратора, worker и серверный агент | Python, TypeScript, Telegram, Docker |
+| [Platega для XenForo](https://github.com/Evr1kys/xenforo-platega) | Платёжный провайдер с проверкой callback, защитой от повторной обработки и поддержкой возвратов | PHP, XenForo 2.2/2.3, MySQL |
 | [MetaLib Video Bot](https://github.com/Evr1kys/metalib-video-bot) | Загрузка видео и аудио с выбором качества, статистикой и администрированием | Python, aiogram, yt-dlp, FFmpeg |
 | [Telegram Subscription Bot](https://github.com/Evr1kys/telegram-subscription-bot) | Продажа доступа в Telegram-канал с CloudPayments и рекуррентными платежами | Python, aiogram, Webhooks |
 | [AutoShop Automation](https://github.com/Evr1kys/autoshop-automation) | Автоматизация магазина цифровых товаров и операций со Steam Points | Python, SQL, Telegram |
