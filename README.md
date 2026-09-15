@@ -1,72 +1,61 @@
-<div align="center">
-
 # Портфолио Evr1kys
 
-### Full‑Stack · Python · Go · TypeScript · Automation
+Разрабатываю веб-сервисы, Telegram-боты и инструменты автоматизации. Беру на себя backend, интерфейс, интеграции, Docker и развёртывание.
 
-Разработка веб‑сервисов, Telegram‑ботов, API, AI‑инструментов и сетевой инфраструктуры.
+## Открытые проекты
 
-[![GitHub](https://img.shields.io/badge/GitHub-Evr1kys-181717?style=for-the-badge&logo=github)](https://github.com/Evr1kys)
-
-</div>
-
-## Open Source
-
-| Проект | Что сделано | Стек |
+| Проект | Результат | Стек |
 |---|---|---|
-| [HydraFlow](https://github.com/Evr1kys/HydraFlow) | Anti‑censorship proxy с определением провайдера, автоматическим выбором обхода и установкой одной командой | Go, Networking, Linux, Docker |
-| [HydraFlow Panel](https://github.com/Evr1kys/HydraFlow-Panel) | Панель управления proxy‑инфраструктурой: пользователи, узлы, биллинг, Telegram‑бот и RBAC | TypeScript, NestJS, React, Mantine |
-| [Hydra Protocol](https://github.com/Evr1kys/Hydra-Protocol) | Экспериментальный адаптивный proxy‑протокол с переключением транспорта | Go, Protocol Design, Security |
-| [MetaLib Video Bot](https://github.com/Evr1kys/metalib-video-bot) | Telegram‑бот для загрузки видео и аудио с выбором качества, статистикой и админ‑панелью | Python, aiogram, yt-dlp, Docker |
+| [HydraFlow](https://github.com/Evr1kys/HydraFlow) | Proxy-сервис с определением провайдера, набором способов обхода и серверной установкой | Go, Linux, Docker, Networking |
+| [HydraFlow Panel](https://github.com/Evr1kys/HydraFlow-Panel) | Управление пользователями, узлами, подписками, биллингом и Telegram-ботом | NestJS, React, PostgreSQL, Redis |
+| [Hydra Protocol](https://github.com/Evr1kys/Hydra-Protocol) | Экспериментальный протокол с переключением между TLS, WebSocket, gRPC и HTTP/2 | Go, TLS, Protocol Design |
+| [MetaLib Game](https://github.com/Evr1kys/metalib-game) | Магазин цифровых товаров с аккаунтами, каталогом, платежами, заказами и админкой | Next.js, TypeScript, MySQL |
+| [Game Marketplace](https://github.com/Evr1kys/game-marketplace) | Торговая площадка с объявлениями, профилями, балансами, отзывами и сообщениями | Next.js, Prisma, NextAuth |
+| [MetaLib VPN Bot](https://github.com/Evr1kys/metalib-vpn-bot) | VPN-платформа: API, бот, Mini App, панель администратора, worker и серверный агент | Python, TypeScript, Telegram, Docker |
+| [MetaLib Video Bot](https://github.com/Evr1kys/metalib-video-bot) | Загрузка видео и аудио с выбором качества, статистикой и администрированием | Python, aiogram, yt-dlp, FFmpeg |
+| [Telegram Subscription Bot](https://github.com/Evr1kys/telegram-subscription-bot) | Продажа доступа в Telegram-канал с CloudPayments и рекуррентными платежами | Python, aiogram, Webhooks |
+| [AutoShop Automation](https://github.com/Evr1kys/autoshop-automation) | Автоматизация магазина цифровых товаров и операций со Steam Points | Python, SQL, Telegram |
 
-## Экосистема MetaLib
+Открытые репозитории содержат инструкции запуска и автоматические проверки сборки или тестов.
 
-| Проект | Результат | Стек / направления |
-|---|---|---|
-| **MetaLib Platform** | Self‑hosted платформа общения: текстовые каналы, голосовые и видеозвонки, демонстрация экрана и собственные emoji | TypeScript, React, WebSocket, WebRTC, Docker |
-| [MetaLib Game](https://github.com/Evr1kys/metalib-game) | Интернет‑магазин цифровых товаров с каталогом, авторизацией, административной частью и подготовленным деплоем | Next.js, TypeScript, Prisma, SQL, Tailwind CSS |
-| [Game Marketplace](https://github.com/Evr1kys/game-marketplace) | Торговая площадка игровых товаров: профили, каталог, поиск, балансы, отзывы, личный кабинет и чат | Next.js, React, TypeScript, Prisma, Docker |
-| [MetaLib VPN Bot](https://github.com/Evr1kys/metalib-vpn-bot) | Сервис управления VPN‑подписками с ботом, mini app, административной панелью, backend и серверными агентами | Python, TypeScript, Telegram, Docker, Xray |
-| **MTB VPN** | Продажа VPN‑подписок: несколько серверов, платёжные интеграции, реферальная система и веб‑панель | Python, FastAPI, Telegram, VLESS Reality |
-| [Telegram Subscription Bot](https://github.com/Evr1kys/telegram-subscription-bot) | Продажа доступа в приватный канал: тарифы, CloudPayments, рекуррентные платежи и автоматическое управление участниками | Python, Telegram Bot API, CloudPayments, Webhooks |
-| [AutoShop](https://github.com/Evr1kys/autoshop-automation) | Автоматизация магазина: синхронизация данных, обновление цен и балансов, служебные проверки и Telegram‑управление | Python, SQL, Telegram, Background Jobs |
-| **Shuko Jewelry** | Адаптивный анимированный каталог украшений с визуальной системой в anime‑стилистике | HTML, CSS, JavaScript, Responsive Design |
-| **Silver Age Book** | Интерактивная образовательная книга о Серебряном веке с анимациями и адаптивным интерфейсом | Next.js, React, TypeScript, Framer Motion |
-| **MetaLib Video Bot** | Загрузка видео и аудио, выбор качества, статистика, админ‑панель и Docker‑развёртывание | Python, aiogram, yt-dlp, Docker |
+## Проекты с закрытым кодом
 
-## Другие проекты
+### MetaLib Platform
 
-| Проект | Результат | Стек / направления |
-|---|---|---|
-| **Hydra AI Stack** | Собственная языковая модель, deep‑learning фреймворк с autograd и ускорением, библиотека подготовки данных | Python, Metal/CUDA, NLP, Data Processing |
-| **E‑commerce + GBS.Market** | Магазин с каталогом, корзиной, заказами, админкой и синхронизацией товаров и остатков через локальный bridge | Next.js, TypeScript, Prisma, SQLite |
-| **Utility Meter Bot** | MAX‑бот для приёма показаний счётчиков воды с записью данных в Google Sheets и сохранением фотографий в Drive | JavaScript, Google Apps Script, Sheets, Drive API |
-| **XenForo UI** | Адаптивная вёрстка и визуальное оформление форума, аудит desktop/mobile экранов и подготовка пакета стиля | HTML, CSS, JavaScript, XenForo |
-| **Automation & Integrations** | Парсинг, фоновые задачи, синхронизация данных, внешние API, уведомления и служебные панели | Python, REST API, SQL, Monitoring |
+Self-hosted платформа общения: текстовые каналы, голосовые и видеозвонки, демонстрация экрана, собственные emoji, desktop-клиент и серверная инфраструктура.
 
-> Исходный код части проектов закрыт из‑за пользовательских данных, платёжных настроек и обязательств перед заказчиками. В портфолио опубликованы безопасные описания без токенов, баз и production‑конфигурации.
+`TypeScript` `React` `WebRTC` `WebSocket` `Electron` `Docker`
 
-## Что могу сделать
+### MTB VPN
 
-- Telegram‑бот: продажи, подписки, поддержка, уведомления, парсинг
-- Backend и API: FastAPI, интеграции, базы данных, авторизация
-- Full‑Stack сервис: React/Next.js, административная панель, деплой
-- Автоматизация: обработка данных, внешние API, фоновые сценарии
-- Серверная часть: Docker, Linux, Nginx, CI/CD, мониторинг
+Продажа VPN-подписок через Telegram: несколько серверов, семь платёжных способов, реферальная система, промокоды и веб-панель.
 
-## Принципы работы
+`Python` `aiogram` `Flask` `VLESS Reality` `Docker`
 
-1. Уточняю результат и фиксирую границы задачи.
-2. Проектирую решение с учётом поддержки и безопасности.
-3. Разрабатываю, тестирую и показываю промежуточный результат.
-4. Развёртываю проект и передаю понятную документацию.
+### Интернет-магазин с GBS.Market
 
----
+Каталог, корзина, заказы и админка. Локальный bridge синхронизирует товары, цены и остатки с GBS.Market.
 
-<div align="center">
+`Next.js` `TypeScript` `Prisma` `SQLite`
 
-### Обсудить проект
+### Silver Age Book
 
-Напишите через [GitHub](https://github.com/Evr1kys) и приложите краткое описание задачи.
+Интерактивный сайт-книга о поэзии Серебряного века с адаптивной вёрсткой и анимацией страниц. Репозиторий закрыт из-за состава текстовых материалов.
 
-</div>
+`Next.js` `React` `TypeScript` `Framer Motion`
+
+### Utility Meter Bot
+
+MAX-бот принимает показания счётчиков воды, записывает их в Google Sheets и сохраняет фотографии в Google Drive.
+
+`Google Apps Script` `JavaScript` `Sheets API` `Drive API`
+
+## Задачи, с которыми работаю
+
+- Telegram-боты: продажи, подписки, поддержка, уведомления;
+- backend и API: авторизация, платежи, базы данных, внешние сервисы;
+- full-stack: личные кабинеты, административные панели, каталоги;
+- автоматизация: синхронизация, парсинг, фоновые процессы;
+- инфраструктура: Docker, Linux, reverse proxy, CI/CD.
+
+Закрытый код не публикуется, если в нём есть данные заказчика, рабочие ключи, платёжные настройки или внутренняя инфраструктура.
