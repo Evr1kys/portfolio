@@ -19,45 +19,32 @@
 | [Hydra Protocol](https://github.com/Evr1kys/Hydra-Protocol) | Экспериментальный адаптивный proxy‑протокол с переключением транспорта | Go, Protocol Design, Security |
 | [MetaLib Video Bot](https://github.com/Evr1kys/metalib-video-bot) | Telegram‑бот для загрузки видео и аудио с выбором качества, статистикой и админ‑панелью | Python, aiogram, yt-dlp, Docker |
 
-## Коммерческие и приватные кейсы
+## Экосистема MetaLib
 
-Исходный код этих проектов закрыт из‑за пользовательских данных, платёжных настроек и обязательств перед заказчиками. Ниже — безопасное описание выполненной работы.
+| Проект | Результат | Стек / направления |
+|---|---|---|
+| **MetaLib Platform** | Self‑hosted платформа общения: текстовые каналы, голосовые и видеозвонки, демонстрация экрана и собственные emoji | TypeScript, React, WebSocket, WebRTC, Docker |
+| **MetaLib Game** | Интернет‑магазин цифровых товаров с каталогом, авторизацией, административной частью и подготовленным деплоем | Next.js, TypeScript, Prisma, SQL, Tailwind CSS |
+| **Game Marketplace** | Торговая площадка игровых товаров: профили, каталог, поиск, балансы, отзывы, личный кабинет и чат | Next.js, React, TypeScript, Prisma, Docker |
+| **MetaLib VPN Bot** | Сервис управления VPN‑подписками с ботом, mini app, административной панелью, backend и серверными агентами | Python, TypeScript, Telegram, Docker, Xray |
+| **MTB VPN** | Продажа VPN‑подписок: несколько серверов, платёжные интеграции, реферальная система и веб‑панель | Python, FastAPI, Telegram, VLESS Reality |
+| **Telegram Subscription Bot** | Продажа доступа в приватный канал: тарифы, CloudPayments, рекуррентные платежи и автоматическое управление участниками | Python, Telegram Bot API, CloudPayments, Webhooks |
+| **AutoShop** | Автоматизация магазина: синхронизация данных, обновление цен и балансов, служебные проверки и Telegram‑управление | Python, SQL, Telegram, Background Jobs |
+| **Shuko Jewelry** | Адаптивный анимированный каталог украшений с визуальной системой в anime‑стилистике | HTML, CSS, JavaScript, Responsive Design |
+| **Silver Age Book** | Интерактивная образовательная книга о Серебряном веке с анимациями и адаптивным интерфейсом | Next.js, React, TypeScript, Framer Motion |
+| **MetaLib Video Bot** | Загрузка видео и аудио, выбор качества, статистика, админ‑панель и Docker‑развёртывание | Python, aiogram, yt-dlp, Docker |
 
-### 🎮 Game Marketplace
+## Другие проекты
 
-Торговая площадка игровых товаров с регистрацией, каталогом, поиском, балансами, отзывами, личным кабинетом и чатом между пользователями.
+| Проект | Результат | Стек / направления |
+|---|---|---|
+| **Hydra AI Stack** | Собственная языковая модель, deep‑learning фреймворк с autograd и ускорением, библиотека подготовки данных | Python, Metal/CUDA, NLP, Data Processing |
+| **E‑commerce + GBS.Market** | Магазин с каталогом, корзиной, заказами, админкой и синхронизацией товаров и остатков через локальный bridge | Next.js, TypeScript, Prisma, SQLite |
+| **Utility Meter Bot** | MAX‑бот для приёма показаний счётчиков воды с записью данных в Google Sheets и сохранением фотографий в Drive | JavaScript, Google Apps Script, Sheets, Drive API |
+| **XenForo UI** | Адаптивная вёрстка и визуальное оформление форума, аудит desktop/mobile экранов и подготовка пакета стиля | HTML, CSS, JavaScript, XenForo |
+| **Automation & Integrations** | Парсинг, фоновые задачи, синхронизация данных, внешние API, уведомления и служебные панели | Python, REST API, SQL, Monitoring |
 
-`Next.js` `React` `TypeScript` `Prisma` `SQL` `Docker`
-
-### 💳 Telegram Subscription Bot
-
-Бот для продажи подписки на приватный Telegram‑канал: тарифы, CloudPayments, рекуррентные платежи, автоматическая выдача и отзыв доступа, статистика и админ‑управление.
-
-`Python` `Telegram Bot API` `CloudPayments` `SQLite` `Webhooks`
-
-### 💬 MetaLib
-
-Self‑hosted платформа общения с текстовыми каналами, голосовыми и видеозвонками, демонстрацией экрана и собственными emoji.
-
-`TypeScript` `React` `WebSocket` `WebRTC` `Docker`
-
-### 🛡 MTB VPN
-
-Автоматизированный сервис продажи VPN‑подписок: Telegram‑бот, несколько серверов, платёжные интеграции, реферальная система и веб‑панель.
-
-`Python` `FastAPI` `Telegram` `VLESS Reality` `Docker`
-
-### 🧠 Hydra AI Stack
-
-Набор связанных AI‑проектов: собственная языковая модель, фреймворк обучения с autograd и ускорением, а также библиотека подготовки данных.
-
-`Python` `Deep Learning` `Metal/CUDA` `NLP` `Data Processing`
-
-### 🛒 Automation & Shops
-
-Автоматизация интернет‑магазинов, синхронизация данных, фоновые задачи, интеграции с внешними API и служебные панели управления.
-
-`Python` `REST API` `SQL` `Background Jobs` `Monitoring`
+> Исходный код части проектов закрыт из‑за пользовательских данных, платёжных настроек и обязательств перед заказчиками. В портфолио опубликованы безопасные описания без токенов, баз и production‑конфигурации.
 
 ## Что могу сделать
 
