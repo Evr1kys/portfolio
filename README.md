@@ -24,12 +24,12 @@
 | Проект | Результат | Стек / направления |
 |---|---|---|
 | **MetaLib Platform** | Self‑hosted платформа общения: текстовые каналы, голосовые и видеозвонки, демонстрация экрана и собственные emoji | TypeScript, React, WebSocket, WebRTC, Docker |
-| **MetaLib Game** | Интернет‑магазин цифровых товаров с каталогом, авторизацией, административной частью и подготовленным деплоем | Next.js, TypeScript, Prisma, SQL, Tailwind CSS |
-| **Game Marketplace** | Торговая площадка игровых товаров: профили, каталог, поиск, балансы, отзывы, личный кабинет и чат | Next.js, React, TypeScript, Prisma, Docker |
-| **MetaLib VPN Bot** | Сервис управления VPN‑подписками с ботом, mini app, административной панелью, backend и серверными агентами | Python, TypeScript, Telegram, Docker, Xray |
+| [MetaLib Game](https://github.com/Evr1kys/metalib-game) | Интернет‑магазин цифровых товаров с каталогом, авторизацией, административной частью и подготовленным деплоем | Next.js, TypeScript, Prisma, SQL, Tailwind CSS |
+| [Game Marketplace](https://github.com/Evr1kys/game-marketplace) | Торговая площадка игровых товаров: профили, каталог, поиск, балансы, отзывы, личный кабинет и чат | Next.js, React, TypeScript, Prisma, Docker |
+| [MetaLib VPN Bot](https://github.com/Evr1kys/metalib-vpn-bot) | Сервис управления VPN‑подписками с ботом, mini app, административной панелью, backend и серверными агентами | Python, TypeScript, Telegram, Docker, Xray |
 | **MTB VPN** | Продажа VPN‑подписок: несколько серверов, платёжные интеграции, реферальная система и веб‑панель | Python, FastAPI, Telegram, VLESS Reality |
-| **Telegram Subscription Bot** | Продажа доступа в приватный канал: тарифы, CloudPayments, рекуррентные платежи и автоматическое управление участниками | Python, Telegram Bot API, CloudPayments, Webhooks |
-| **AutoShop** | Автоматизация магазина: синхронизация данных, обновление цен и балансов, служебные проверки и Telegram‑управление | Python, SQL, Telegram, Background Jobs |
+| [Telegram Subscription Bot](https://github.com/Evr1kys/telegram-subscription-bot) | Продажа доступа в приватный канал: тарифы, CloudPayments, рекуррентные платежи и автоматическое управление участниками | Python, Telegram Bot API, CloudPayments, Webhooks |
+| [AutoShop](https://github.com/Evr1kys/autoshop-automation) | Автоматизация магазина: синхронизация данных, обновление цен и балансов, служебные проверки и Telegram‑управление | Python, SQL, Telegram, Background Jobs |
 | **Shuko Jewelry** | Адаптивный анимированный каталог украшений с визуальной системой в anime‑стилистике | HTML, CSS, JavaScript, Responsive Design |
 | **Silver Age Book** | Интерактивная образовательная книга о Серебряном веке с анимациями и адаптивным интерфейсом | Next.js, React, TypeScript, Framer Motion |
 | **MetaLib Video Bot** | Загрузка видео и аудио, выбор качества, статистика, админ‑панель и Docker‑развёртывание | Python, aiogram, yt-dlp, Docker |
